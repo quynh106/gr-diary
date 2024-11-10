@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group Diary</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Group Diary</h1>
+      <div class="tabs">
+        <div class="tab-button" onclick="openTab(event, 'Week1')">Week 1</div>
+        <div class="tab-button" onclick="openTab(event, 'Week2')">Week 2</div>
+        <div class="tab-button" onclick="openTab(event, 'Week3')">Week 3</div>
+      </div>
+
+      <div id="Week1" class="tab-content">
+        <table>
+          <thead>
+            <tr>
+              <th>STT</th>
+              <th>Mã SV</th>
+              <th>Họ tên</th>
+              <th>Công việc được giao</th>
+              <th>Kết quả</th>
+              <th>Tiến độ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>23130257</td>
+              <td>Nguyễn Trần Nhật Quân</td>
+              <td>Yêu cầu chức năng: làm tab requirement</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>23130102</td>
+              <td>Bùi Văn Hiếu</td>
+              <td>Yêu cầu chức năng: làm tab design</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>23130324</td>
+              <td>Phạm Hoàng Duy Thức</td>
+              <td>Yêu cầu chức năng: làm tab implementation</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>23130145</td>
+              <td>Phạm Nhật Khang</td>
+              <td>Yêu cầu chức năng: Login / Register / Forgot Pass</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>23130267</td>
+              <td>Võ Lê Hương Quỳnh</td>
+              <td>Yêu cầu chức năng: làm menu group diary</td>
+              <td></td>
+              <td>100%</td>
+            </tr>
+
+            <!-- Thêm các dòng khác tại đây -->
+          </tbody>
+        </table>
+      </div>
+
+      <div id="Week2" class="tab-content" style="display: none">
+        <table>
+          <thead>
+            <tr>
+              <th>STT</th>
+              <th>Mã SV</th>
+              <th>Họ tên</th>
+              <th>Công việc được giao</th>
+              <th>Kết quả</th>
+              <th>Tiến độ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>23130257</td>
+              <td>Nguyễn Trần Nhật Quân</td>
+              <td>Yêu cầu chức năng:</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>23130102</td>
+              <td>Bùi Văn Hiếu</td>
+              <td>Yêu cầu chức năng:</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>23130324</td>
+              <td>Phạm Hoàng Duy Thức</td>
+              <td>Yêu cầu chức năng:</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>23130145</td>
+              <td>Phạm Nhật Khang</td>
+              <td>Yêu cầu chức năng:</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>23130267</td>
+              <td>Võ Lê Hương Quỳnh</td>
+              <td>Yêu cầu chức năng:</td>
+              <td></td>
+              <td>100%</td>
+            </tr>
+
+            <!-- Thêm các dòng khác tại đây -->
+          </tbody>
+        </table>
+      </div>
+
+      <div id="Week3" class="tab-content" style="display: none">
+        <table>
+          <thead>
+            <tr>
+              <th>STT</th>
+              <th>Mã SV</th>
+              <th>Họ tên</th>
+              <th>Công việc được giao</th>
+              <th>Kết quả</th>
+              <th>Tiến độ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>23130257</td>
+              <td>Nguyễn Trần Nhật Quân</td>
+              <td>Yêu cầu chức năng:</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>23130102</td>
+              <td>Bùi Văn Hiếu</td>
+              <td>Yêu cầu chức năng:</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>23130324</td>
+              <td>Phạm Hoàng Duy Thức</td>
+              <td>Yêu cầu chức năng:</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>23130145</td>
+              <td>Phạm Nhật Khang</td>
+              <td>Yêu cầu chức năng:</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>23130267</td>
+              <td>Võ Lê Hương Quỳnh</td>
+              <td>Yêu cầu chức năng:</td>
+              <td></td>
+              <td>100%</td>
+            </tr>
+
+            <!-- Thêm các dòng khác tại đây -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
